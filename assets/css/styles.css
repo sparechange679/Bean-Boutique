@@ -1,48 +1,3 @@
-/* poppins-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/poppins-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* poppins-500 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/poppins-v24-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* poppins-600 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/poppins-v24-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* poppins-700 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/poppins-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* poppins-800 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 800;
-  src: url('../fonts/poppins-v24-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -84,7 +39,8 @@ nav a {
     display: block;
 }
 
-nav a:hover, .active {
+nav a:hover,
+.active {
     background-color: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -105,7 +61,7 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-header p {
+header h2 {
     font-size: 1.3rem;
     font-style: italic;
 }
@@ -424,13 +380,19 @@ footer p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(111, 78, 55, 0.3), rgba(139, 111, 71, 0.3));
+    background: linear-gradient(
+        rgba(111, 78, 55, 0.3),
+        rgba(139, 111, 71, 0.3)
+    );
     z-index: 1;
     transition: all 0.3s ease;
 }
 
 .product-card:hover .product-image-overlay {
-    background: linear-gradient(rgba(111, 78, 55, 0.4), rgba(139, 111, 71, 0.4));
+    background: linear-gradient(
+        rgba(111, 78, 55, 0.4),
+        rgba(139, 111, 71, 0.4)
+    );
 }
 
 /* Product Image - Responsive and Full Display */
@@ -622,6 +584,11 @@ footer p {
 
 .cart-total span {
     font-weight: bold;
+}
+
+.heading {
+    font-weight: inherit;
+    font-size: 1.8rem;
 }
 
 .checkout-btn {
@@ -853,7 +820,7 @@ footer p {
         font-size: 2rem;
     }
 
-    header p {
+    header h2 {
         font-size: 1rem;
     }
 

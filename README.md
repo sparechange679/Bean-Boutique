@@ -199,13 +199,13 @@ If JavaScript were allowed, the following could be added:
 Bean Boutique Coffee Shop
 123 Coffee Lane, Brew City, BC 12345
 Email: info@beanboutique.com
-Phone: (555) 123-4567
+Phone: (265) 888036082
 
 ---
 
 **Assignment Completed By:** [Your Name]
 **Student Number:** [Your NCC Education Student Number]
-**Date:** December 2024
+**Date:** December 2026
 **Course:** Front End Web Development [2231-1]
 
-© 2024 Bean Boutique. Created for educational purposes.
+© 2026 Bean Boutique. Created for educational purposes.
